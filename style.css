@@ -19,9 +19,9 @@ h2 {
 
 h3 {
   color: #fff;
-	letter-spacing: 1px;
-	font-weight: normal;
-	text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-align: center;
 }
 
 p {
@@ -37,7 +37,7 @@ p {
 }
 
 
-/* navbar and dropdown https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+/* navbar */
 .navbar {
   background-color: #667292;
   overflow: auto;
@@ -75,66 +75,58 @@ background-color: #383f52;
   display:block;
 }
 
-/*making navbar responsive https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
-.navbar a:not(:first-child), .dropdown .dropbtn {
-	display: none;
+@media screen and (max-width: 1000px) {
+	
+	/*making navbar responsive https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
+	.navbar a:not(:first-child) {
+	  display: none;
+	}
+	.navbar a.icon {
+	  float: right;
+	  display: block;
+	}
+	
+	.navbar.responsive {
+	  position: relative;
+	}
+	.navbar.responsive a.icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.navbar.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+	.navbar.responsive {
+	  float: none;
+	}
+	.navbar.responsive {
+	  position: relative;
+	}
+	.navbar.responsive {
+	    display: block;
+	    width: 100%;
+	    text-align: left;
+	}
 }
-.navbar a.icon {
-  float: right;
-  display: block;
-}
-
-.navbar.responsive {
-	position: relative;
-}
-.navbar.responsive a.icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.navbar.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-}
-.navbar.responsive .dropdown {float: none;}
-.navbar.responsive .dropdown-content {position: relative;}
-.navbar.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-}
-
-
-/*image gallery with scroll https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp */
-div.scrollimagegallery {
-  background-color: #8d9db6;
-  padding: 0px;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-div.scrollimagegallery img {
-  padding: 10px;
-  max-width: 50%;
-}
-
 
 /*Back to top button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 #topbutton {
-  position: fixed; /* Fixed/sticky position */
-  right: 15px; /*Place the button 30px from the right*/
-  bottom: 15px; /* Place the button at the bottom of the page*/
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: solid; /* Remove outline */
-  background-color: #667292; /* Set a background color */
-  color: #f1e3dd; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 8px; /* Some padding */
-  border-radius: 2px; /* Rounded corners */
-  font-size: 14px; /* Increase font size */
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99;
+  border: none;
+  outline: solid;
+  background-color: #667292;
+  color: #f1e3dd;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 2px;
+  font-size: 14px;
 }
 
 #topbutton:hover {
