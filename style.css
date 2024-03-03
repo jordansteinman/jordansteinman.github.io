@@ -1,6 +1,5 @@
 * {
   font-family: Trebuchet, sans-serif;
-  font-weight: lighter;
 }
 
 body {
@@ -63,13 +62,13 @@ background-color: #383f52;
 }
 
 /* style for icon for navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-.navbar .icon {
+.navbar .icon .hide {
   display:none;
 }
 
-.hide {
+/*.hide {
   display:none;
-}
+}*/
 
 /*class to make button appear*/
 .top-show{
