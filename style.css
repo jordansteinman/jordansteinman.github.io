@@ -75,7 +75,7 @@ background-color: #383f52;
   display:block;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
 	
 	/*making navbar responsive https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
 	.navbar a:not(:first-child) {
@@ -126,7 +126,7 @@ background-color: #383f52;
   cursor: pointer;
   padding: 8px;
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #topbutton:hover {
