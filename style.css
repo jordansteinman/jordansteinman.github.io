@@ -1,0 +1,59 @@
+h1 {
+  text-align: center; color: #fff;
+}
+h2 {text-align: center; 
+  color: #fff;
+  font-style:italic;}
+body {
+  background-color: #8d9db6;
+}
+p {
+  color: #fff;
+  padding:  0px  20px  0px;
+}
+
+
+#heading { 
+  background-color: #667292;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 50px;
+}
+
+
+
+
+/*image gallery with scroll https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp */
+div.scrollimagegallery {
+  background-color: #8d9db6;
+  padding: 0px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollimagegallery img {
+  padding: 10px;
+  max-width: 50%;
+}
+
+
+/*Back to top button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+#topbutton {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page*/
+  right: 30px; /*Place the button 30px from the right*/
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #667292; /* Set a background color */
+  color: #f1e3dd; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 20px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topbutton:hover {
+  background-color: #bccad6; 
+}
