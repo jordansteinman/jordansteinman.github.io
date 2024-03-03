@@ -3,47 +3,10 @@
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- https://www.w3schools.com/html/html_responsive.asp -->
         <meta charset=utf-8>
-      <style>
-        
-      </style>
-	<!--Link to stylesheet-->
-<!--        <link rel="stylesheet" href="Styling.css"> -->
+        <link rel="stylesheet" href="style.css"> <!--Link to stylesheet-->
         <title>Jordan Steinman</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!---icon for navbar button-->
-        <script>
-          //Script for navbar when collasped
-          //From: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
-          function Navbar() {
-              var x = document.getElementById("myTopnav"); 
-              if (x.className === "navbar") {
-                  x.className += " responsive";
-              } else {
-                  x.className === "navbar"
-              }
-          }
-          
-          //Function for back-to-top button to bring back to the top once clicked
-          //From:  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
-          
-          function topFunction() {
-              document.body.scrollTop = 0; // For Safari
-              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-            }
-          
-          //Code for to make back-to-top button appear once scrolled 
-          //From: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onscroll2
-          
-          window.onscroll = function() {scrollTopButton()};
-          
-          function scrollTopButton() {
-            if (document.documentElement.scrollTop > 10) {
-              document.getElementById("topbutton").className = "top-show"; //changes class to top-show where display:block
-            } else {
-              document.getElementById("topbutton").className = "hide"; //keeps class to top-hide where display:none
-            }
-          }
-
-        </script>  <!--Link to javascript-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!---Link to navbar icon-->
+    	<script src="script.js"></script> <!--Link to script-->
     </head>
 
     <body>
