@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #8d9db6;
+  background-color: #fff9f0;
 }
 
 h1 {
@@ -30,17 +30,18 @@ p {
 }
 
 #heading { 
-  background-color: #667292;
+  background-color: #cf8a40;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-top: 50px;
+  margin-top: 5px;
 }
-
+/*background image??*/
 
 /* navbar */
 .navbar {
-  background-color: #667292;
+  background-color: black;
   overflow: auto;
+  font-weight: normal;
 }
 
 .navbar a {
