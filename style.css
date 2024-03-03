@@ -1,5 +1,6 @@
 * {
   font-family: Trebuchet, sans-serif;
+  font-weight: lighter;
 }
 
 body {
@@ -41,7 +42,6 @@ p {
 .navbar {
   background-color: black;
   overflow: auto;
-  font-weight: normal;
 }
 
 .navbar a {
