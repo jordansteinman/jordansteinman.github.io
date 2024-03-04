@@ -182,6 +182,11 @@ p {
   opacity: 0.8;
 }
 
+.row {
+  overflow: auto;
+  white-space: nowrap;
+}
+
 /* clear floats after columns */
 .row:after {
   content: "";
