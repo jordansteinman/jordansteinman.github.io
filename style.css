@@ -201,6 +201,10 @@ p {
   width: 80%;
 }
 
+.container img {
+  width: 100%;
+}
+
 /* Large expanding image text */
 #imgtext {
   position: absolute;
