@@ -114,15 +114,12 @@ h2 {
 h3 {
   display: block;
   color: black;
-  letter-spacing: 1px;
   font-weight: normal;
-  text-size: 15px;
-  width: 70%;
-  padding-left: 15px
 }
 
 h3.more {
   margin-bottom: 0px;
+  margin-right: 30%
 }
 
 p {
@@ -133,8 +130,8 @@ p {
 .more {
   display: block;
   margin-top: 20px;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 13px;
   padding: 10px;
   float: left;
 }
