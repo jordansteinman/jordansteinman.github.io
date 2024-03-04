@@ -115,6 +115,7 @@ h2 {
 }
 
 h3 {
+  display: block;
   color: black;
   letter-spacing: 1px;
   font-weight: normal;
