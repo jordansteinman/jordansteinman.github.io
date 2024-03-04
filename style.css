@@ -44,7 +44,7 @@ p {
 }
 
 .navbar a {
-  float: right;
+  float: left;
   font-size: 14px;
   color: white;
   text-align: center;
@@ -54,10 +54,10 @@ p {
 
 .navbar a.active {
   background-color: #c0d6df;
+  color: black;
 }
 
 .navbar a:hover {
-  color: black;
   background-color: #505168;
 }
 
