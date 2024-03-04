@@ -167,7 +167,7 @@ p {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33%;
+  width: auto;
   padding: 10px;
 }
 
@@ -176,7 +176,7 @@ p {
   opacity: 1; 
   cursor: pointer; 
   max-width: 250px;
-  max-height: 250px;
+  max-height: 150px;
 }
 
 .column img:hover {
@@ -198,6 +198,7 @@ p {
   position: relative;
   display: none;
   max-width: 1000px;
+  max-height: 1000px
 }
 
 /* Expanding image text */
