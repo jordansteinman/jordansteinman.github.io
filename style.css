@@ -124,6 +124,7 @@ h3.more {
 
 h4 {
   padding: 14px;
+  border: 1px solid black;
   border-radius: 4px;
   background-colour: white;
   margin-left: 6px;
