@@ -132,16 +132,11 @@ p {
   padding:  0px  20px  0px;
 }
 
-/*.maindesc {
-  clear: left;
-}*/
-
 .more {
   margin-top: 20px;
   margin-left: 10px;
   margin-bottom: 20px;
   padding: 10px;
-  clear: left;
   float: left;
 }
 
