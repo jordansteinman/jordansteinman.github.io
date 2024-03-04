@@ -53,32 +53,33 @@ p {
 }
 
 .navbar a.active {
-  background-color: #505168;
+  background-color: #c0d6df;
 }
 
 .navbar a:hover {
   color: black;
-  background-color: #c0d6df;
+  background-color: #505168;
 }
 
 /* style for icon for navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 .navbar .icon .hide {
-  display:none;
+  display: none;
 }
 
 /*.hide {
-  display:none;
+  display: none;
 }*/
 
 /*class to make button appear*/
 .top-show{
-  display:block;
+  display: block;
 }
 
 @media screen and (max-width: 640px) {
 	
 	/*making navbar responsive https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
-	.navbar a:not(:first-child) {
+	/*.navbar a:not(:first-child)*/
+	.navbar a {
 	  display: none;
 	}
 	.navbar a.icon {
