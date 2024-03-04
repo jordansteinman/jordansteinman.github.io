@@ -11,11 +11,69 @@
   
     <body>
         <div class="navbar" id="myTopnav">
-    	<a class="active" href="portfolio.html">Portfolio</a> 
-    	<!-- <a href="about.html">About Me</a> -->
-    	<a href="index.html">Home</a>
-        <a href="javascript:void(0);" class="icon" onclick="Navbar()">
-        <i class="fa fa-bars"></i></a>
-      </div>
+          <a class="active" href="portfolio.html">Portfolio</a> 
+          <!-- <a href="about.html">About Me</a> -->
+          <a href="index.html">Home</a>
+          <a href="javascript:void(0);" class="icon" onclick="Navbar()">
+          <i class="fa fa-bars"></i></a>
+        </div>
+
+        <div style="text-align:center">
+          <h2>Click on the photos below to display in a larger view</h2>
+          <p>Click on the images below:</p>
+        </div>
+        
+        <p>2022:</p>
+        
+        <!-- The four columns -->
+        <div class="row">
+          <div class="column">
+            <img src="Images/jordan.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/Max.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/Kitty.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+          </div>
+        </div>
+        
+        
+        <p>2021:</p>
+        
+        <!-- The four columns -->
+        <div class="row">
+          <div class="column">
+            <img src="img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/Kitty.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/Max.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+          </div>
+        </div>
+        
+        <div class="container">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%">
+          <div id="imgtext"></div>
+        </div>
+        
+        <script>
+        function myFunction(imgs) {
+          // Get the expanded image
+          var expandImg = document.getElementById("expandedImg");
+          // Get the image text
+          var imgText = document.getElementById("imgtext");
+          // Use the same src in the expanded image as the image being clicked on from the grid
+          expandImg.src = imgs.src;
+          // Use the value of the alt attribute of the clickable image as text inside the expanded image
+          imgText.innerHTML = imgs.alt;
+          // Show the container element (hidden with CSS)
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
+        
     </body>
 </html>
