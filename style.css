@@ -112,9 +112,9 @@ h2 {
 }
 
 h3 {
-  display: block;
   color: black;
   font-weight: normal;
+  width: 95%;
 }
 
 h3.more {
