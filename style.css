@@ -49,12 +49,12 @@ p {
 
 .navbar a {
   float: right;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   text-align: center;
   text-decoration: none;
   padding: 10px 20px;
-  font-stretch: semi-expanded;
+  font-stretch: ultra-expanded;
 }
 
 .navbar a.active {
