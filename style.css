@@ -198,17 +198,18 @@ p {
   position: relative;
   display: none;
   max-width: 1000px;
-  max-height: 1000px
+  max-height: 1000px;
+  width: 80%;
 }
 
 /* Expanding image text */
 #imgtext {
   position: absolute;
+  padding: 15px;
   bottom: 15px;
-  left: 15px;
   color: white;
   background-color: black;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 /* Closable button inside the expanded image */
