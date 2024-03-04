@@ -9,14 +9,14 @@ body {
 
 h1 {
   text-align: left;
-  color: #fff;
+  color: #dfb07f;
   padding-left: 8px;
   
 }
 
 h2 {
   text-align: left; 
-  color: white;
+  color: #dfb07f;
   font-style:italic;
   padding-left: 8px;
 }
@@ -45,7 +45,8 @@ p {
 .navbar {
   background-color: black;
   overflow: auto;
-  justify-content: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .navbar a {
