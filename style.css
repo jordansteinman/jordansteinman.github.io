@@ -159,6 +159,7 @@ p {
   margin-right: auto;
   max-width: 1186px;
   width: 70%
+  clear: left;
 }
 
 /*Back to top button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
