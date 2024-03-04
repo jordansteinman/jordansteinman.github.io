@@ -163,21 +163,14 @@ p {
 }
 
 
-div.scrollgallery {
-  padding: 0px;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-
-/* The grid: Four equal columns that floats next to each other */
+/* grid columns that float next to each other */
 .column {
   float: left;
   width: auto;
   padding: 10px;
 }
 
-/* Style the images inside the grid */
+/* images inside grid */
 .column img {
   opacity: 1; 
   cursor: pointer; 
@@ -189,14 +182,14 @@ div.scrollgallery {
   opacity: 0.8;
 }
 
-/* Clear floats after the columns */
+/* clear floats after columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* The expanding image container */
+/* Large expanding image container */
 .container {
   margin: 20px;
   margin-left: auto;
@@ -208,7 +201,7 @@ div.scrollgallery {
   width: 80%;
 }
 
-/* Expanding image text */
+/* Large expanding image text */
 #imgtext {
   position: absolute;
   padding: 15px;
@@ -218,7 +211,7 @@ div.scrollgallery {
   font-size: 0.9em;
 }
 
-/* Closable button inside the expanded image */
+/* x to close large */
 .closebtn {
   position: absolute;
   top: 10px;
@@ -230,7 +223,6 @@ div.scrollgallery {
 
 
 /*Back to top button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
-
 #topbutton {
   position: fixed;
   right: 15px;
