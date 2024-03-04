@@ -19,6 +19,12 @@
         </div>
 
         <h2>Click on a photo below to have it display in a larger view</h2>
+
+        <div class="container">
+          <div onclick="this.parentElement.style.display='none'" class="closebtn">&times;</div>
+          <img id="expandedImg">
+          <div id="imgtext"></div>
+        </div>
         
         <p>Past Work:</p>
 
@@ -50,11 +56,6 @@
           </div>
         </div>
 
-        <div class="container">
-          <div onclick="this.parentElement.style.display='none'" class="closebtn">&times;</div>
-          <img id="expandedImg">
-          <div id="imgtext"></div>
-        </div>
 
         <div>
           <button onclick="topFunction()" id="topbutton" class="hide" title="Top">Top</button>
