@@ -5,6 +5,7 @@
 body {
   background-color: #fff9f0;
   margin: 0px;
+  width: 100%;
 }
 
 /* navbar */
@@ -83,7 +84,7 @@ body {
 	}
 	.navbar.responsive {
 	    display: block;
-	    width: 100%;
+	    width: 300px;
 	    text-align: left;
 	}
 }
@@ -114,7 +115,8 @@ h3 {
   color: black;
   letter-spacing: 1px;
   font-weight: normal;
-  text-align: center;
+  text-size: 15px;
+  width: 70%;
 }
 
 p {
@@ -139,7 +141,7 @@ p {
   border-radius: 7px;
   padding: 10px;
   text-decoration: none;
-  color: #c98032;
+  color: #2c1c0b;
 }
 
 .moreinfo:hover {
