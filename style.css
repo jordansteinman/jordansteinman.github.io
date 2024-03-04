@@ -163,16 +163,11 @@ p {
 }
 
 
-/*div.scrollgallery {
-  background-color: #8d9db6;
+div.scrollgallery {
   padding: 0px;
   overflow: auto;
   white-space: nowrap;
 }
-div.scrollgallery img {
-  padding: 10px;
-  max-width: 50%;
-}*/
 
 
 /* The grid: Four equal columns that floats next to each other */
@@ -180,8 +175,6 @@ div.scrollgallery img {
   float: left;
   width: auto;
   padding: 10px;
-  overflow: auto;
-  white-space: nowrap;
 }
 
 /* Style the images inside the grid */
