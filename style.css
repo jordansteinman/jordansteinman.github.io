@@ -104,14 +104,14 @@ body {
 h1 {
   text-align: left;
   color: #dfb07f;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 h2 {
   text-align: left; 
   color: #dfb07f;
   font-style:italic;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 h3 {
@@ -121,6 +121,10 @@ h3 {
   text-size: 15px;
   width: 70%;
   padding-left: 15px
+}
+
+h3.more {
+  margin-bottom: 0px;
 }
 
 p {
@@ -137,6 +141,7 @@ p {
   margin-left: 10px;
   margin-bottom: 20px;
   padding: 10px;
+  clear: left;
   float: left;
 }
 
@@ -172,12 +177,12 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 99;
-  border: 1px solid black;
+  border: 1px solid #f6eadd;
   background-color: #505168;
   color: #f6eadd;
   cursor: pointer;
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: 16px;
 }
 
