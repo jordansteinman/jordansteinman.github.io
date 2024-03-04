@@ -154,8 +154,9 @@ p {
 }
 
 .image {
-  display: block;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: auto;
+  padding-right: auto;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
