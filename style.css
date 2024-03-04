@@ -169,16 +169,18 @@ p {
   float: left;
   width: 33%;
   padding: 10px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.8; 
+  opacity: 1; 
   cursor: pointer; 
 }
 
 .column img:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 /* Clear floats after the columns */
@@ -213,8 +215,6 @@ p {
   font-size: 35px;
   cursor: pointer;
 }
-
-
 
 
 /*Back to top button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
