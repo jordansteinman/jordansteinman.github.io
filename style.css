@@ -62,13 +62,13 @@ p {
 }
 
 /* style for icon for navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-.navbar .icon .hide {
+.navbar .icon {
   display: none;
 }
 
-/*.hide {
+.hide {
   display: none;
-}*/
+}
 
 /*class to make button appear*/
 .top-show{
