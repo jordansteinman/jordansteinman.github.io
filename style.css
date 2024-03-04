@@ -7,45 +7,11 @@ body {
   margin: 0px;
 }
 
-h1 {
-  text-align: left;
-  color: #dfb07f;
-  padding-left: 8px;
-  
-}
-
-h2 {
-  text-align: left; 
-  color: #dfb07f;
-  font-style:italic;
-  padding-left: 8px;
-}
-
-h3 {
-  color: black;
-  letter-spacing: 1px;
-  font-weight: normal;
-  text-align: center;
-}
-
-p {
-  color: black;
-  padding:  0px  20px  0px;
-}
-
-#heading { 
-  background-color: #f6eadd;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 5px;
-}
-/*background image??*/
-
 /* navbar */
 .navbar {
   background-color: black;
   overflow: auto;
-  padding-top: 4px;
+  padding-top: 8px;
   padding-bottom: 4px;
 }
 
@@ -57,6 +23,7 @@ p {
   text-decoration: none;
   padding: 10px 20px;
   font-stretch: ultra-expanded;
+  letter-spacing: 1px
 }
 
 .navbar a.active {
@@ -120,6 +87,61 @@ p {
 	    text-align: left;
 	}
 }
+
+
+#heading { 
+  background-color: #f6eadd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+}
+/*background image??*/
+
+h1 {
+  text-align: left;
+  color: #dfb07f;
+  padding-left: 15px;
+}
+
+h2 {
+  text-align: left; 
+  color: #dfb07f;
+  font-style:italic;
+  padding-left: 15px;
+}
+
+h3 {
+  color: black;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-align: center;
+}
+
+p {
+  color: black;
+  padding:  0px  20px  0px;
+}
+
+.more {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  float: left;
+}
+
+.moreinfo {
+  font-size: ;
+  border: 1px solid #f2e0cd;
+  border-radius: 3px;
+}
+
+.moreinfo:hover {
+  background-color: #efd7bd
+  transition: ease-in;
+  transition-duration: 200ms;
+}
+
+
 
 /*Back to top button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
