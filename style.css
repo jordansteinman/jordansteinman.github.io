@@ -13,7 +13,7 @@ body {
   background-color: black;
   overflow: auto;
   padding-top: 8px;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
 }
 
 .navbar a {
@@ -122,10 +122,24 @@ h3.more {
   margin-right: 30%
 }
 
+h4 {
+  padding: 14px;
+  border-radius: 4px;
+  background-colour: white;
+  margin-left: 6px;
+}
+
 p {
   color: black;
   padding:  0px  20px  0px;
 }
+
+hr {
+  margin: 4px;
+}
+
+.portp {
+  padding: 0px 18px 0px;
 
 .more {
   display: block;
