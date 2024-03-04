@@ -123,20 +123,21 @@ p {
 }
 
 .more {
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
   padding: 10px;
   float: left;
 }
 
 .moreinfo {
-  font-size: ;
+  font-size: 16px;
   border: 1px solid #f2e0cd;
   border-radius: 3px;
+  padding: 10px;
 }
 
 .moreinfo:hover {
-  background-color: #efd7bd
+  background-color: #efd7bd;
   transition: ease-in;
   transition-duration: 200ms;
 }
