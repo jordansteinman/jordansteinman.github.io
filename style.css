@@ -45,6 +45,7 @@ p {
 .navbar {
   background-color: black;
   overflow: auto;
+  justify-content: left;
 }
 
 .navbar a {
