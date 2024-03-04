@@ -123,7 +123,7 @@ p {
 }
 
 .more {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 10px;
   padding: 10px;
   float: left;
@@ -131,9 +131,10 @@ p {
 
 .moreinfo {
   font-size: 16px;
-  border: 1px solid #f2e0cd;
-  border-radius: 3px;
+  border: 2px solid #f2e0cd;
+  border-radius: 7px;
   padding: 10px;
+  text-decoration: none;
 }
 
 .moreinfo:hover {
