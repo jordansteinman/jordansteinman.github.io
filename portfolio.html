@@ -18,50 +18,44 @@
           <i class="fa fa-bars"></i></a>
         </div>
 
-        <div style="text-align:center">
-          <h2>Click on the photos below to display in a larger view</h2>
-          <p>Click on the images below:</p>
+          <h2>Click on a photo below to have it display in a larger view</h2>
+
+        <div class="container">
+          <div onclick="this.parentElement.style.display='none'" class="closebtn">&times;</div>
+          <img id="expandedImg">
+          <div id="imgtext"></div>
         </div>
         
+        <p>Past Work:</p>
+
         <p>2022:</p>
         
-        <!-- The four columns -->
-        <div class="scrollgallery">
-            <div class="row">
-              <div class="column">
-                <img src="Images/jordan.jpg" alt="Mountains" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="Images/Max.jpg" alt="Lights" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="Images/jordan.jpg" alt="Nature" onclick="myFunction(this);">
-              </div>
-            </div>
+        <div class="row">
+          <div class="column">
+            <img src="Images/jordan.jpg" alt="Mountains" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/Max.jpg" alt="Lights" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/jordan.jpg" alt="Nature" onclick="myFunction(this);">
+          </div>
         </div>
         
         <p>2021:</p>
-        
-        <!-- The four columns -->
-        <div class="scrollgallery">
-            <div class="row">
-              <div class="column">
-                <img src="Images/jordan.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="Images/Kitty.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="Images/Max.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
-              </div>
-            </div>
+
+        <div class="row">
+          <div class="column">
+            <img src="Images/jordan.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/Kitty.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="Images/Max.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+          </div>
         </div>
-        
-        <div class="container">
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-          <img id="expandedImg" style="width:100%">
-          <div id="imgtext"></div>
-        </div>
+
 
         <div>
           <button onclick="topFunction()" id="topbutton" class="hide" title="Top">Top</button>
