@@ -7,12 +7,12 @@ body {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   color: #fff;
 }
 
 h2 {
-  text-align: center; 
+  text-align: left; 
   color: #fff;
   font-style:italic;
 }
@@ -44,21 +44,21 @@ p {
 }
 
 .navbar a {
-  float: left;
-  font-size: 20px;
-  color: #f1e3dd;
+  float: right;
+  font-size: 14px;
+  color: white;
   text-align: center;
   text-decoration: none;
-  padding: 15px 30px;
-  background-color: #667292;
+  padding: 10px 20px;
 }
 
 .navbar a.active {
-background-color: #383f52;
+  background-color: #505168;
 }
 
 .navbar a:hover {
-  background-color: #bccad6;
+  color: black;
+  background-color: #c0d6df;
 }
 
 /* style for icon for navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
