@@ -64,9 +64,9 @@ body {
 	  display: block;
 	}
 	
-	/*.navbar.responsive {
+	.navbar.responsive {
 	  position: relative;
-	}*/
+	}
 	.navbar.responsive a.icon {
 	  position: absolute;
 	  right: 0;
@@ -77,15 +77,13 @@ body {
 	  display: block;
 	  text-align: left;
 	}
-	/*.navbar.responsive {
-	  float: none;
-	}*/
-	/*.navbar.responsive {
-	  position: relative;
-	}*/
 	.navbar.responsive {
 	  float: none;
+	}
+	.navbar.responsive {
 	  position: relative;
+	}
+	.navbar.responsive {
 	  display: block;
 	  width: 100%;
 	  text-align: left;
