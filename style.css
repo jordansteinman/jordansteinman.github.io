@@ -4,35 +4,39 @@
 
 body {
   background-color: #fff9f0;
+  margins: 0px;
 }
 
 h1 {
   text-align: left;
   color: #fff;
+  
 }
 
 h2 {
   text-align: left; 
-  color: #fff;
+  color: black;
   font-style:italic;
+  padding-left: 8px;
 }
 
 h3 {
-  color: #fff;
+  color: black;
   letter-spacing: 1px;
   font-weight: normal;
   text-align: center;
+  padding-left: 8px;
 }
 
 p {
-  color: #fff;
+  color: black;
   padding:  0px  20px  0px;
 }
 
 #heading { 
   background-color: #cf8a40;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 5px;
 }
 /*background image??*/
@@ -44,12 +48,13 @@ p {
 }
 
 .navbar a {
-  float: left;
-  font-size: 14px;
+  float: right;
+  font-size: 18px;
   color: white;
   text-align: center;
   text-decoration: none;
   padding: 10px 20px;
+  font-stretch: semi-expanded;
 }
 
 .navbar a.active {
@@ -59,6 +64,7 @@ p {
 
 .navbar a:hover {
   background-color: #505168;
+  color: white;
 }
 
 /* style for icon for navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
