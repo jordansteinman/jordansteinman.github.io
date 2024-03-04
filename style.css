@@ -16,7 +16,7 @@ h1 {
 
 h2 {
   text-align: left; 
-  color: black;
+  color: white;
   font-style:italic;
   padding-left: 8px;
 }
@@ -34,7 +34,7 @@ p {
 }
 
 #heading { 
-  background-color: #cf8a40;
+  background-color: #f6eadd;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 5px;
@@ -58,13 +58,13 @@ p {
 }
 
 .navbar a.active {
-  background-color: #c0d6df;
-  color: black;
+  background-color: #505168;
+  color: white;
 }
 
 .navbar a:hover {
-  background-color: #505168;
-  color: white;
+  background-color: #c0d6df;
+  color: black;
 }
 
 /* style for icon for navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
