@@ -16,8 +16,6 @@ body {
   padding-bottom: 8px;
 }
 
-.
-
 .navbar a {
   float: right;
   font-size: 16px;
@@ -26,7 +24,7 @@ body {
   text-decoration: none;
   padding: 10px 20px;
   font-stretch: ultra-expanded;
-  letter-spacing: 1px
+  letter-spacing: 1px;
 }
 
 .navbar a.active {
