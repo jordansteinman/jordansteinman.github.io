@@ -137,11 +137,13 @@ p {
 }
 
 hr {
-  margin: 16px 3px 16px;
+  margin: 16px 5px 16px;
 }
 
 .years {
   font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 10px;
 }
 
 .more {
