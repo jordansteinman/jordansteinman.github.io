@@ -16,6 +16,8 @@ body {
   padding-bottom: 8px;
 }
 
+.
+
 .navbar a {
   float: right;
   font-size: 16px;
@@ -123,16 +125,22 @@ h3.more {
 }
 
 h4 {
-  padding: 14px;
+  padding: 8px 14px;
   border: 1px solid black;
   border-radius: 4px;
   background-colour: white;
-  margin-left: 6px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  display: inline-block;
 }
 
 p {
   color: black;
   padding:  0px  20px  0px;
+}
+
+.years {
+  font-weight: bold;
 }
 
 .more {
@@ -205,7 +213,6 @@ p {
   position: relative;
   display: none;
   max-width: 1000px;
-  max-height: 1000px;
   width: 80%;
 }
 
@@ -225,6 +232,11 @@ p {
   color: white;
   background-color: black;
   font-size: 0.9em;
+  opacity: 0.6;
+}
+
+#imgtext:hover {
+  opacity: 1;
 }
 
 /* x to close large */
