@@ -53,7 +53,7 @@ body {
 
 @media screen and (max-width: 640px) {
 	
-	/*making navbar responsive https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
+	/*making navbar responsive https://www.w3schools.com/howto/howto_js_responsive_navbar.asp*/
 	/*.navbar a:not(:first-child)*/
 	.navbar a {
 	  display: none;
@@ -174,7 +174,7 @@ p {
   width: 70%
 }
 
-
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery*/
 /* grid columns that float next to each other */
 .column {
   float: left;
