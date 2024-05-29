@@ -156,6 +156,10 @@ hr {
   float: left;
 }
 
+.more1 {
+  margin-top: 0px;
+}
+
 .moreinfo {
   font-size: 16px;
   border: 2px solid #f2e0cd;
