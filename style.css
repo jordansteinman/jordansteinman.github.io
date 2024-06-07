@@ -287,8 +287,10 @@ hr {
   padding: 10px;
   border-radius: 12px;
   font-size: 16px;
+  opacity: 0.7;
 }
 
 #topbutton:hover {
   background-color: #27233a; 
+  opacity: 1;
 }
