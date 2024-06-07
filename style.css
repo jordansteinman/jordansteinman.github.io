@@ -139,6 +139,11 @@ hr {
   margin: 20px 5px 18px;
 }
 
+#2ndline {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 .years {
   font-weight: bold;
   margin-bottom: 8px;
@@ -157,12 +162,14 @@ hr {
 
 .more1 {
   display: block;
+  margin-top: 0px;
   margin-left: 20px;
   margin-bottom: 0px;
   margin-right: 30%;
   padding: 10px;
   padding-top: 0px;
   float: left;
+  color: #743030;
 }
 
 .moreinfo {
